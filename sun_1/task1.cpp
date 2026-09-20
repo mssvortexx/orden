@@ -11,6 +11,7 @@ int main()
     while (time--)
     {   
         int length;
+        cin >> length;
         if (length % 4 != 0)
         {    
             cout << "NO" << endl;
