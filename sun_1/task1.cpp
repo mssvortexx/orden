@@ -7,9 +7,10 @@ int main()
     int time;
     cin >> time;
 
-    int length;
-    while (cin >> length)
+    
+    while (time--)
     {   
+        int length;
         if (length % 4 != 0)
         {    
             cout << "NO" << endl;
