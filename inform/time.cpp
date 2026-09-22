@@ -16,8 +16,7 @@ int main()
     m %= 60;
     h %= 24;
 
-    print(h);
-    cout << ":";
+    cout << h << ":";
     print(m);
     cout << ":";
     print(s);
