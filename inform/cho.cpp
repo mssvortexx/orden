@@ -4,9 +4,14 @@ using namespace std;
 
 int main()
 {    
-    long long n;
+    int n;
+    int sum = 0;
 
     cin >> n;
 
-    cout << n % 10 << endl;
+    for (int i = 0; i < 3; i++)
+    {    
+        sum += n % 10;
+    }
+    cout << sum << endl;
 }
