@@ -4,13 +4,11 @@ using namespace std;
 
 int main()
 {    
-    int a, b;
-    cin >> a;
-    cin >> b;
+    int n;
+    cin >> n;
 
-    int t = a;
-    a = b;
-    b = t;
+    int t = 0;
+    t += (45 * n) + ((n - 1)/2 * 15) + (n / 2) * 5;
 
-    cout << a << " " << b << endl;
+    cout << (t / 60) + 9 << " " << t % 60 << endl;
 }
