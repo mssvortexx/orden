@@ -10,7 +10,7 @@ int main()
 
     int z = a % p;
     int x = p - z;
-    int n = p % x;
+    int n = x % p;
 
     cout << n << endl;
 }
