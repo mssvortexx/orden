@@ -8,8 +8,9 @@ int main()
     cin >> p;
     cin >> a;
 
-    int z = a / p;
-    int m = p * (z + 1);
-    int x = m - a;
-    cout << x << endl;
+    int z = a % p;
+    int x = p - z;
+    int n = p % x;
+
+    cout << n << endl;
 }
